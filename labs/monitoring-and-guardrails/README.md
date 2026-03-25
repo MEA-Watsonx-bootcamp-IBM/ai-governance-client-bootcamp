@@ -1,5 +1,6 @@
  # 🚨 Monitoring, evaluation, and guardrails with watsonx.governance
-<img width="1053" alt="Screenshot 2025-08-18 at 4 15 08 PM" src="https://github.ibm.com/skol/ai-governance-client-bootcamp/assets/12043/f45bd979-82a9-4a63-8d04-cd3c652e4c5f">
+
+<img width="1513" height="804" alt="f45bd979-82a9-4a63-8d04-cd3c652e4c5f" src="https://github.com/user-attachments/assets/31e8e684-de81-4e53-8452-a3bb52a74541" />
 
 ## 🤔 The Problem
 
