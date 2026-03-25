@@ -26,7 +26,7 @@ The **AI Governance Bootcamp** is a hands-on, modular learning experience design
 
 
 
-## 🚗💨 Get started in 5 steps!
+## 🚗💨 Get started in 5 steps....
 
 ## 📚 0. Go to the instructor's enablement
 Review [these materials](https://ibm.box.com/s/godlfj0rrfyrgkoav88o99hp1atzvgrq)
