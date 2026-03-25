@@ -1,6 +1,6 @@
 # ⚖️ AI Governance Client Bootcamp
 
-<img width="1519" alt="banner-ai-governance" src="https://github.ibm.com/skol/ai-governance-client-bootcamp/assets/12043/a5313e89-9a15-482c-a2e1-1a4b5b403488">
+<img width="1519" alt="main banner" src="https://github.com/user-attachments/assets/89749ac6-7c9a-448f-90b6-6294c130f2a3" />
 
 # 🚀 Instructor's Guide: Customize your Own Bootcamp!
 ## 🤖 What is the AI Governance Bootcamp?
