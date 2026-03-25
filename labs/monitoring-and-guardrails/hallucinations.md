@@ -176,7 +176,9 @@ Your instructor might have done this already. If not, you can follow these instr
 
 
 15. Scroll down and right below the Venn diagram you will see the individual transactions: questions, answers, and context. Explore on your own to see which questions were answered correctly/incorrectly and how relevant are the answer and context to the question.
- <img width="1521" alt="transactions-1" src="https://github.ibm.com/skol/ai-governance-client-bootcamp/assets/12043/3f117d11-75d6-419d-8006-63113a9cf082">
+
+ <img width="1521" height="1118" alt="image" src="https://github.com/user-attachments/assets/987b12e8-208c-4344-8881-c4370df45e56" />
+
 
 > [!NOTE]
 > In this case, we know the low quality metrics are due to the data being scrambled.
