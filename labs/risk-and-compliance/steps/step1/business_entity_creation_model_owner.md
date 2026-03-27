@@ -43,7 +43,8 @@ In **IBM OpenPages**, a **Business Entity**:
    * Go to **Organization**.
    * Select **Business Entity**.
 
-   <img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Business_entity.png">
+   <img width="800" alt="image" src="https://github.com/user-attachments/assets/e5562f7d-9a18-4225-8d03-c5172d813ee4" />
+
 
 3. **Create a New Entity:**
 
@@ -59,7 +60,8 @@ In **IBM OpenPages**, a **Business Entity**:
 
 4. **Click Save.**
 
-   <img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/primary_entity.png">
+   <img width="800" alt="image" src="https://github.com/user-attachments/assets/10ff298c-7055-4f36-a8e0-ceb1eec4c874" />
+
 
 ---
 
@@ -77,7 +79,8 @@ In **IBM OpenPages**, a **Business Entity**:
    | **Business Unit**           | As applicable                                            |
    | **Primary Business Entity** | Select `Techcorp` from the dropdown or lookup list.      |
 
-   <img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Screenshot 2025-07-17 at 5.32.40 PM.png">
+   <img width="800" alt="image" src="https://github.com/user-attachments/assets/15fde0c3-3362-480e-a02d-4564f69b438b" />
+
 
 3. ✅ **Ensure `Techcorp` is selected** as the **Primary Business Entity**.
 
@@ -107,7 +110,8 @@ You enable:
 * Focused compliance tracking
 * Organized risk and issue management within your AI initiatives
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Screenshot 2025-07-17 at 5.35.09 PM.png">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/f6e44d46-8a4f-4834-a6ce-097516cd99b0" />
+
 
 ---
 
