@@ -1,179 +1,117 @@
-# 🧑‍🔬 AIOps Engineer – Deploy and Track Model in Production
+# Model Developer's Lab for AI Governance
 
-> ⚠️ **Note:** Log in with the **AIOps Engineer** or **AI Engineer** role before accessing deployment tools.
+## Overview
 
----
+This guide contains the Model Developer's lab for AI Governance, focusing on automating HR policy question/answering processes using IBM watsonx capabilities.
 
-# 🔑 Accessing Project Deployment Tools
+## 1. Use Case
 
-1. Log in to **IBM Cloud**.
-   
-
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model02.png">
-
- 
-2. From the **Hamburger Menu (☰)**, navigate to **Projects**.
-
-
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model20.png">
-
-
-3. Click **View All Projects**.
-   
-
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model22.png">
-
-
-4. Select **HR Process Automation Project**.  
-
-
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model23.png">
-
+**Business Goal:** Automate question/answering process from HR policies using IBM watsonx **AskHR**, enabling faster HR policy question/answering while maintaining compliance in OpenPages.
 
 ---
 
-# 🎯 Deployment Responsibilities
+## 2. Persona
 
-As a **Model Deployer**, your primary responsibilities include:
-
-- **Asset Management**  
-  Promote and manage AI assets (prompts, models) to the correct deployment space.  
-
-- **Deployment**  
-  Configure and launch assets in production with proper naming and optional descriptions.  
-
-- **Monitoring**  
-  Track deployed AI in the **AI Use Case** view to ensure correct operation and performance.  
-
-- **Documentation**  
-  Review **AI Factsheets** to validate asset metadata, lineage, and compliance.  
-
-
+**Model Developer:** Responsible for accessing the deployed Agentic RAG model, running evaluations, and integrating outputs into OpenPages.
 
 ---
 
-# 🔍 Deployment Steps
-
-## 1️⃣ Promote Asset to Deployment Space
-
-1. Navigate to **Assets** → **Asset Types** → **Prompts** -> Locate **Agentic RAG Testing Detached Prompt**.
-
-   
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model24.png">
+## 3. Step-by-Step OpenPages Flow
 
 
-  
-2. Click the **3-dot menu** on the asset → select **Promote to Space**.
+### **Step 1 – Starting the development**
 
-   
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model27.png">
+As a delevoper or developer manager, you will start the development process from the governance console.
 
-     
-3. Choose the **space you created initially** or you can create new space as **Production** deployment stage. - [Steps for creating Deployment Space](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/Instructions/deploy-project.md)
-   
+Go back to the Use Case on the governance console. 
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model28.png">
+Access the Use Case, review the value of the field **technical owner**. If not set, set the value to yourself and click on Save:
 
+<img width="800" alt="New Asset Creation" src="./assets/developer-nominate-yourself-technical-owner.png">
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model29.png">
+The Use Case was approved for development, you were assigned or self-assigned this Use Case, just click on Action --> Start Use Case Developement and Validation process
 
-   
-4. Click **Promote**.
+<img width="800" alt="New Asset Creation" src="./assets/developer_starting_development.png">
 
-   
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model30.png">
+This will kick-start the Development and Validation process:
 
-    
-5. Confirm the asset is now **promoted to the deployment space**.
-   
+<img width="800" alt="New Asset Creation" src="./assets/developer_process_view.png">
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model31.png">  
+Next, you need to actually perform the developement of the AI System behind the Use Case, following the requirements:
 
+### 🧠 Agentic RAG Capabilities for HR Policy Q&A:
 
----
+As a developer, you will need to fulfill there requirements to develop the UseCase:
 
-## 2️⃣ Deploy Asset
-
-1. In the deployment space, click the **3-dot menu** on the promoted asset → select **Deploy**.
+1. Ingest and index HR policy documents (PDFs, DOCX, web pages, internal knowledge bases)
+2. Allow users to ask natural language questions about HR policies (e.g., leave, benefits, conduct, compliance)
+3. Retrieve relevant policies using semantic search
+4. Generate clear, accurate answers grounded in official HR documentation
+5. Highlight source references to support transparency and traceability
+6. Support multilingual queries and inclusive language understanding
 
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model32.png">  
+Please ask your instructor to perform the actual development of the AI System. If no available, refer to this [guide](./model-developement.md) to perform the actual development on watsonx.ai but also to document your developement and setup the right evaluation metrics.
+We have streamlined all the work into a single Notebook.
 
+> **Note:** After following the guide, the RAG model for this use case is **created and tested** in the AI environment (here watsonx).
 
-2. Enter a **name** for the deployment, optionally, add a **description**.
-
-
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model32.png">  
-
-  
- 
-3. Click **Deploy**.
-
-
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model33.png">  
-
- 
-4. Click on Create.Your **Agentic RAG asset** is now **running in production**.
-
-
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model34.png">  
-  
-
-
+> **Note:** The model chosen is the IBM OpenSource Model [Granite 3.3](https://huggingface.co/ibm-granite/granite-3.3-8b-instruct). The Granite models are provided by IBM. Key facts to take into account:
+1. IBM Research Armonk, which is the entity delivering the Granite Models is a [ISO42001 Certified Organization](https://www.ibm.com/new/announcements/ibm-granite-iso-42001) 
+2. IBM has signed the (General-Purpose AI Code of Practice)[https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai] to assess its conformity to EU AI Act Article 53.
 
 ---
 
-## 3️⃣ Track and Monitor Deployment
 
-1. Click the **AI Factsheet** next to the **Deployment** tab.
-   
+### **Step 2 – Review the documentation automatically updated on the Governance Console**
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model35.png">  
+Because watsonx is tighly integrated with Model Risk Governance, we were able to attach the new development to our Use Case within watsonx and that enables watsonx to directly update the Use Case in Model Risk Governance with the information coming from developement and testing. 
+
+Go back to the Governance Console and to the Use Case, note that the status has changed to **Under development**
+
+<img width="800" alt="New Asset Creation" src="./assets/developer_uc_status_underdevelopment.png">
+
+Scroll Down to the Models section, you should see two new entries:
+
+<img width="800" alt="New Asset Creation" src="./assets/developer_uc_models.png">
+
+Click on each of the entries:
+
+First on the Prompt Template entry:
+<img width="800" alt="New Asset Creation" src="./assets/developer_prompt_review.png">
+
+Notice the status is set to **proposed** and review all the information pushed from the ModelManagement module.
+
+Secondly on the Model entry:
+<img width="800" alt="New Asset Creation" src="./assets/developer_model_review.png">
+
+Notice the status is set to **proposed** and review all the information pushed from the ModelManagement module
 
 
-2. Review **asset metadata**, **performance**, and **compliance information**.
-    
+### **Step 3 – Complete the development and testing phase and submit for validation**
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model36.png"> 
+As a model developer, if you are happy with your development, you can complete that phase in the Governance Console, that will notify Model Validators to start their work.
 
+Go back to the Use Case, click on Actions --> Mark Development Complete
 
-3. Click **Track in AI Use Case** to monitor the deployed AI in context.
-     
+<img width="800" alt="Mark Completed" src="./assets/developer_model_mark_complete.png">
 
-<img width="800" alt="image" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model37.png"> 
+Click on Continue and close the tab
 
+Next you can go back to the Use Case and **Submit for Validation**
+<img width="800" alt="Submit for Validaiton" src="./assets/developer_submit_for_validation.png">
 
+### **Summary**
 
+You have sucessfully completed the developpment of the Use Case:
+1. You have attached your development to the UseCase from the Inventory
+2. You have reviewed the documentation that was automatically populated.
+3. You have selected a model from a Trustworthy provider IBM and have evaluated your developement with metrics adapted to the Use Case.
+
+All this work have increased your chances to pass the validation and see your development be deployed to production.
 
 ---
 
-# ✅ Summary
-
-Following these steps ensures:
-
-- AI assets are correctly promoted to the proper deployment space.  
-- Deployed models are operational and accessible in production.  
-- Asset metadata and performance are transparent through **AI Factsheets**.  
-- You can monitor and track AI effectively in the **AI Use Case** view.  
-
----
-
-## Prerequisites
-
-- IBM Cloud account with access to Watsonx.Governance
-- Access to the pre-deployed Agentic RAG model
-- Permissions to create and manage projects in Watsonx Studio
-  
----
-
-## Resources
-
-- [IBM Cloud Platform](https://cloud.ibm.com/login)
-- [Steps for creating Deployment Space](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/Instructions/deploy-project.md)
-
----
-
-# 🎉 Congratulations!
-
-By deploying and tracking your **Agentic RAG prompt**, you ensure **reliable, compliant, and production-ready AI services** for HR process automation!  
+[← Back to main guide](../../README.md)<br>
+[← Back to directory](../../guides-directory.md)
 
