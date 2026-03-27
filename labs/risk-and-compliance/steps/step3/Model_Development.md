@@ -1,8 +1,8 @@
-# Model Developer's Lab for AI Governance
+# Model Developer's Guide to perform Model Developement on watsonx
 
 ## Overview
 
-This repository contains the Model Developer's lab for AI Governance, focusing on automating HR policy question/answering processes using IBM watsonx **AutoRAG** capabilities.
+This repository contains the Model Developer's guide for AI Governance, focusing on automating HR policy question/answering processes using IBM watsonx **AutoRAG** capabilities.
 
 ## 1. Use Case
 
