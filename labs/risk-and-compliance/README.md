@@ -89,7 +89,7 @@ Here are all the links for all the guides for each of the 6 steps of the AI Gove
 |------|------|-------|---------------------|
 | 1 | Use Case Owner | [Business Entity Creation](./steps/step1/business_entity_creation_model_owner.md), [Use Case Creation](./steps/step1/usecase-creation-model-owner.md)  | - |
 | 2 | Risk & Compliance Officer | [Risk Review](./steps/step1/risk-review-rco.md), [Risk Endorsement](./steps/step2/risk-endorsement-bul.md) | - |
-| 3 | Model Developer | [Developer Tasks](./steps/step3/model-developer-tasks.md) | [Model Development](./steps/step3/model-developement.md) |
+| 3 | Model Developer | [Developer Tasks](./steps/step3/model-developer-tasks.md) | [Model Development](https://github.com/MEA-Watsonx-bootcamp-IBM/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/steps/step3/Model_Development.md) |
 | 4 | Model Validator | [Validator Tasks](./steps/step4/model-validator-tasks.md) | [Model Validation](./steps/step4/model-validation.md) |
 | 5 | AIOps Engineer | [Deployer & Monitoring Tasks](./steps/step5/model-deployer-tasks.md) | [Model Deployment](./steps/step5/model-deployment.md) |
 | 6 | Risk & Compliance Officer | [Incident Management](./steps/step6/mitigating-incidents.md) |  [Model Management Evals](./steps/step6/model-management-evals.md), [Integrating External Evals](./steps/step6/integrating-external-evals.md) |
