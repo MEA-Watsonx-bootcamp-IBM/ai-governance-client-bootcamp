@@ -87,7 +87,7 @@ Here are all the links for all the guides for each of the 6 steps of the AI Gove
 
 | Step | Main Role | Main Guides <br> (on the MRG Console) | Additional Guides (on the Model Management Studio) |
 |------|------|-------|---------------------|
-| 1 | Use Case Owner | [Use Case Creation](./steps/step1/usecase-creation-model-owner.md)  | - |
+| 1 | Use Case Owner | [Business Entity Creation](./steps/step1/business_entity_creation_model_owner.md), [Use Case Creation](./steps/step1/usecase-creation-model-owner.md)  | - |
 | 2 | Risk & Compliance Officer | [Risk Review](./steps/step1/risk-review-rco.md), [Risk Endorsement](./steps/step2/risk-endorsement-bul.md) | - |
 | 3 | Model Developer | [Developer Tasks](./steps/step3/model-developer-tasks.md) | [Model Development](./steps/step3/model-developement.md) |
 | 4 | Model Validator | [Validator Tasks](./steps/step4/model-validator-tasks.md) | [Model Validation](./steps/step4/model-validation.md) |
@@ -127,7 +127,7 @@ As a UseCase Owner, your responsibilities include:
 * Submitting associated risks for assessment  
 
 🔍 Follow these guides:
-
+* [Creating Business Entities](./steps/step1/business_entity_creation_model_owner.md)
 * [Creating and defining an AI use case](./steps/step1/usecase-creation-model-owner.md)
 
 Once the guides above have been completed, the Use Case Owner would wait for steps 2-6 to be completed by other roles (development and deployment) up until an incident or issue is reported.
