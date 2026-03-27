@@ -35,53 +35,62 @@ The Agentic RAG model is already developed and deployed. To access it:
 
 1. Log in to the **[IBM Cloud](https://cloud.ibm.com/login)** platform.
 
-<img width="800" alt="IBM Cloud Login" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model1.png">
+<img width="800" alt="IBM Cloud Login" src="https://github.com/user-attachments/assets/0c1713aa-efaa-4856-b945-8b37e75be937" />
+
 
 2. Open **hamburger menu → Resource List → watsonx.governance**
    
-<img width="800" alt="Watsonx Governance Navigation" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model2.png">
+<img width="800" alt="Watsonx Governance Navigation" src="https://github.com/user-attachments/assets/70fae95e-0657-496c-b9e0-fb1fc9082d7d" />
+
 
 3. Click the **Launch in watsonx.governance** button — this navigates to:
    [https://dataplatform.cloud.ibm.com/wx/home?context=wx](https://dataplatform.cloud.ibm.com/wx/home?context=wx)
    
-<img width="800" alt="Launch watsonx.governance" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model3.png">
+<img width="800" alt="Launch watsonx.governance" src="https://github.com/user-attachments/assets/cadd8c90-2bff-442f-ad9f-99d73c660938" />
+
 
 4. On the **watsonx Studio** homepage:
    
-* Create a new project as explained in the steps linked here: [Steps for creating project](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/create-project.md)
+* Create a new project as explained in the steps linked here: [Steps for creating project](./labs/risk-and-compliance/instructor/create-project.md)
   
 * After creating the project, go to the **Assets** tab and click on **New Asset**:
   
-<img width="800" alt="New Asset Creation" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model13.png">
+<img width="800" alt="New Asset Creation" src="https://github.com/user-attachments/assets/f623e6b2-61ce-4e15-8d81-52913ccdae1b" />
 
 * Select **Working with data or models in Python or R notebooks** from the **All** option on the sidebar:
   
-<img width="800" alt="Notebook Selection" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model14.png">
+<img width="800" alt="Notebook Selection" src="https://github.com/user-attachments/assets/76b39a73-edd7-46d7-8b2f-cb816d33cf1d" />
 
-* Go to the **local file** tab and click **browse** to upload the notebook linked here as a local file: [Notebook](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/assets/agentic-rag.ipynb)
-  
-<img width="800" alt="File Upload" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model15.png">
 
-* Select the [Notebook](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/assets/agentic-rag.ipynb), download it locally, and upload it to the watsonx.ai runtime.
+* Go to the **local file** tab and click **browse** to upload the notebook linked here as a local file: [Notebook](https://github.com/MEA-Watsonx-bootcamp-IBM/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/steps/step3/notebook/agentic-rag.ipynb)
   
-<img width="800" alt="Notebook Upload" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model16.png">
+<img width="800" alt="File Upload" src="https://github.com/user-attachments/assets/9a738df9-5c3c-47cf-b697-6aa0fd3db7ee" />
+
+
+
+* Select the [Notebook](https://github.com/MEA-Watsonx-bootcamp-IBM/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/steps/step3/notebook/agentic-rag.ipynb), download it locally, and upload it to the watsonx.ai runtime.
+  
+<img width="800" alt="Notebook Upload" src="https://github.com/user-attachments/assets/882f43cc-5006-4a77-a4e8-f95dec1cf910" />
+
 
 * After uploading, provide a name to the notebook and click the **Create** button:
   
-<img width="800" alt="Notebook Creation" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model17.png">
+<img width="800" alt="Notebook Creation" src="https://github.com/user-attachments/assets/9b4b89e6-fb0f-4953-a70f-50184cacac9a" />
+
 
 * The notebook will now be ready to run and **create a Detached Prompt Template for Agentic RAG** in the OpenScale dashboard UI
 
 -> In this notebook:
 
-- Use **watsonx_api_key** created initially [Create API key](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/create-api-key.md)
+- Use **watsonx_api_key** created initially [Create API key](https://github.com/MEA-Watsonx-bootcamp-IBM/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/api_key_setup.md)
 - Access **project_id** by navigating: hamburger menu → projects → view all projects → your project-> Manage tab -> copy project id.
 
 
-<img width="800" alt="Notebook Ready" src="/labs/risk-and-compliance/assets/hands_on_lab_images/project-id.png">
+<img width="800" alt="Notebook Ready" src="https://github.com/user-attachments/assets/14f551af-a4ee-46f8-9d6c-630b189d66a6" />
+
    
-  
-<img width="800" alt="Notebook Ready" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model18.png">
+<img width="800" alt="Notebook Ready" src="https://github.com/user-attachments/assets/748f2258-3b2a-44e9-b85e-1ea0e8998173" />
+
 
 ---
 
@@ -100,7 +109,8 @@ Run the above notebook and then visualize the results in **IBM watsonx Openscale
 Navigate to the **Detached Prompt Template** asset within the project on **[Openscale](https://aiopenscale.cloud.ibm.com/aiopenscale/insights?nocache=true&bss_account=4b9fae855573451bb6e3bb27d9153c4a)** Dashboard:
 
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model8 .png">
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/9b3b5dff-79f0-4426-8773-e9b3a5acf0db" />
+
 
 
 ### **Step 3 – AI Factsheet View of Detached Prompt Template **
@@ -108,63 +118,63 @@ Navigate to the **Detached Prompt Template** asset within the project on **[Open
 
 1. Go to dataplatform.cloud.ibm.com watsonx studio
 
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/df4f17d8-f16e-4949-8130-7d33a9443580" />
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model20.png">
 
 
 2. Navigate: hamburger menu → projects → view all projects → HR Process Automation (select this project)
 
    
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/d79437d4-efb5-4a42-a83f-05b8571dda29" />
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model23.png">
 
 
 
 3. Inside this project, you will find **Detached prompt template** named **Agentic RAG** - select that
 
    
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/c7d99704-06d7-4087-9974-4e410524a5a1" />
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model25.png">  
 
 
 
 4. After selecting, you will be onboarded to **AI Factsheet**
 
 
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/395af2af-49e6-4d17-b0a3-75a14c6fd7b8" />
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model26.png">
 
 
 
 5. Now click on **Track in AI use case**  to associate asset to **AI Use case** click on **Go to AI Use cases** as project is not associated to **AI Use case** :
 
 
-   
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model51.png">
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/fda39ce4-8a73-4eb7-9be4-d5de3b81945e" />
+
 
 
 
 6. Select **AI Use case** created by **Use case owner** initially :
 
 
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/06315d79-772c-41a2-98be-d843231cef4c" />
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model52.png">
 
 
 
 7. Go to **Associated workspaces** section and Select **Validation** phase and click on **Associate Workspace**:
 
 
-
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model53.png">
-
-
-
-9. Here, Select **Project** created initially and Deployment space created  or if you have not created Click on **+New Space** and follow [Deployment Creation Steps](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/deploy-project.md) these steps for creating deployment space for **Testing** Deployment stage. Click on Save:
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/1e984eee-534a-40c3-a2d2-ebaab2a3cc1b" />
 
 
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model54.png">
+
+9. Here, Select **Project** created initially and Deployment space created  or if you have not created Click on **+New Space** and follow [Deployment Creation Steps](https://github.com/MEA-Watsonx-bootcamp-IBM/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/deploy-project.md) these steps for creating deployment space for **Testing** Deployment stage. Click on Save:
+
+
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/187b363b-0ccc-44f6-a7db-0ea65728f36d" />
+
 
 
 
@@ -172,7 +182,8 @@ Navigate to the **Detached Prompt Template** asset within the project on **[Open
 
 
     
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model55.png">
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/feb1f6ed-864d-496a-8b7d-242d2c65090f" />
+
 
 
 
@@ -180,15 +191,15 @@ Navigate to the **Detached Prompt Template** asset within the project on **[Open
 
 
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model63.png">    
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/cd0643a9-ddd7-4a1f-b8a5-b846a9a17116" />
 
 
 
 12. Now **AI Use case** is getting tracked in **Validation** phase so Click on **Track in AI Use case**:
 
 
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/7e6739d1-2973-4d6c-af2d-774e93175f62" />
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model57.png">
 
 
 
@@ -196,49 +207,49 @@ Navigate to the **Detached Prompt Template** asset within the project on **[Open
 
 
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model58.png">
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/b6bb9e83-ae46-4661-967f-f8c9bd260b07" />
 
 
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model59.png">
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/1f9cb12a-8c92-46f2-9cd7-1d38f2b587a1" />
 
 
 
 14. Associate the **asset** with an existing model record or create a new model record in OpenPages. This will sync the tracked model facts between Model inventory and OpenPages.Click on **Next**.
 
 
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/3d3c2141-95a8-47f4-8c43-64a2c177e2be" />
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model60.png">
 
 
 
 15. Choose the starting point for this approach(Experimental,Stable,Custom) any one of them for **version** tracking. Click on **Next**:
 
 
-
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model61.png">
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/68000588-deeb-4bbb-9731-4dcb7ee1de5a" />
 
 
 
 16. Review to make sure that your detached prompt template is stable before you track it in an **AI use case**. Click on **Track Asset**:
 
 
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/dc8266fd-bc48-4bc4-8d2d-13bdedc46a17" />
 
- <img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model62.png">   
 
 
 
 Finally **Agentic RAG** getting tracked in **AI Use case**. Click on **Agentic RAG Testing** under asset record to view it in **Governance Console**
 
 
-
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model63.png"> 
-
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/2b7b9657-e31b-4f74-ad18-42fb85001448" />
 
 
-<img width="800" alt="Detached Prompt Template UI" src="/labs/risk-and-compliance/assets/hands_on_lab_images/Model64.png"> 
 
-17.Now Go to [Model Lifecycle part to start process for validation](http://github.ibm.com/skol/ai-governance-client-bootcamp/edit/main/labs/risk-and-compliance/assets/tasks/Model%20lifecycle)
+<img width="800" alt="Detached Prompt Template UI" src="https://github.com/user-attachments/assets/e856e5d8-82fc-44e4-8b51-777a44a222ec" />
+
+
+
+17. Now go back to the [Model Developer Tasks Guide](../step3/model-developer-tasks.md) to finish the developement declaration and start the validation process.
 
 > [!Note]
 > Model Developer has developed **Agentic RAG Detached prompt template** and Also onboarded it to **AI Use case**
@@ -254,7 +265,6 @@ Finally **Agentic RAG** getting tracked in **AI Use case**. Click on **Agentic R
 ## Resources
 
 - [IBM Cloud Platform](https://cloud.ibm.com/login)
-- [Project Creation Steps](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/create-project.md)
-- [Create API key](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/create-api-key.md)
-- [Agentic RAG Notebook](https://github.ibm.com/skol/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/assets/agentic-rag.ipynb)
-
+- [Project Creation Steps](../../instructor/create-project.md)
+- [Create API key](../../instructor/api_key_setup.md)
+- [Agentic RAG Notebook - Dallas](./notebook/agentic-rag.ipynb)
