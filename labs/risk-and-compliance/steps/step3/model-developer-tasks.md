@@ -51,7 +51,7 @@ As a developer, you will need to fulfill there requirements to develop the UseCa
 6. Support multilingual queries and inclusive language understanding
 
 
-Please ask your instructor to perform the actual development of the AI System. If no available, refer to this [guide](./Model_Developement.md) to perform the actual development on watsonx.ai but also to document your developement and setup the right evaluation metrics.
+Please ask your instructor to perform the actual development of the AI System. If no available, refer to this [guide](labs/risk-and-compliance/steps/step3/Model_Development.md) to perform the actual development on watsonx.ai but also to document your developement and setup the right evaluation metrics.
 We have streamlined all the work into a single Notebook.
 
 > **Note:** After following the guide, the RAG model for this use case is **created and tested** in the AI environment (here watsonx).
