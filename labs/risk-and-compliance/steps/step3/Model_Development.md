@@ -49,9 +49,10 @@ The Agentic RAG model is already developed and deployed. To access it:
 <img width="800" alt="Launch watsonx.governance" src="https://github.com/user-attachments/assets/cadd8c90-2bff-442f-ad9f-99d73c660938" />
 
 
+
 4. On the **watsonx Studio** homepage:
    
-* Create a new project as explained in the steps linked here: [Steps for creating project](./labs/risk-and-compliance/instructor/create-project.md)
+* Create a new project as explained in the steps linked here: [Steps for creating project](https://github.com/MEA-Watsonx-bootcamp-IBM/ai-governance-client-bootcamp/blob/main/labs/risk-and-compliance/instructor/create-project.md)
   
 * After creating the project, go to the **Assets** tab and click on **New Asset**:
   
