@@ -2,79 +2,52 @@
 
 <img width="1519" alt="main banner" src="https://github.com/user-attachments/assets/89749ac6-7c9a-448f-90b6-6294c130f2a3" />
 
-# 🚀 Instructor's Guide: Customize your Own Bootcamp!
+# 🚀 Student's Guide
 ## 🤖 What is the AI Governance Bootcamp?
 
 The **AI Governance Bootcamp** is a hands-on, modular learning experience designed by **IBM Client Engineering** for Clients and Business Partners. The goal is for the Client or Business Partner team to learn and implement AI Governance capabilities to deploy AI systems with trust and compliance.
 
-### 🚀 Customize it!
-🔨 **Build your own bootcamp** curriculum: pick your learning materials, hands-on labs, demos, and other resources, and tailor the bootcamp to your Client or Business Partner, depending on their interests and skill levels.
 
 > [!IMPORTANT]
-> This repo contains instructions and materials to help you **customize** and run your own AI Governance bootcamp for clients. However, you're welcome to bring your own resources as well!
-> Since each client has different skill levels, expectations, and interests, it's essential to tailor the material to their needs before the bootcamp.
+> This repo contains instructions and materials to help you run the AI Governance bootcamp. However, you're welcome to bring your own use cases as well!
+> IBM has customized this bootcamp for different skill levels, expectations, and interests based on student profiles.
 
 
-## 🎯 What's the goal?
-🚀 Show the value of AI Governance technology quickly with lower commitment from the client.
+## 🎯 What's the goal for students?
+🚀 Understand the value of AI Governance technology quickly with low/no-code interface (Watsonx Openscale, Governance Console).
 
-🚀 Get clients excited with a tangible outcome and learning experience, generate a pilot, or progress a deal. 
+🚀 **Objective** is to come up with a tangible outcome and learning experience and understand better how we can resolve business challenges in the AI governance domain
 
-🚀 **Audience:** Clients or Business Partners interested in AI Governance.
+🚀 **Audience:** Clients interested in AI Governance capabilities in the model monitoring, lifecycle governance, risk management and regulatory compliance.
 
-🚀 **Run by:** AI Engineers, BTLs, Designers from CE, Brand Technical Specialists, CSMs (as applicable), and more!
-
+🚀 **Run by:** AI Engineers, Strategy Designers from CE, Customer Success Engineers, Platform architects and more!
 
 
 ## 🚗💨 Get started in 5 steps....
 
-## 📚 0. Go to the instructor's enablement
-Review [these materials](https://ibm.box.com/s/godlfj0rrfyrgkoav88o99hp1atzvgrq)
 
 ## 📚 1. Client facing presentations
-Study the [client facing presentations](https://ibm.box.com/s/iizjxnzjhysduut51si2v3e3nju6q2uy). You can pick and choose the topics that resonate the most to the client depending on their maturity and interests. 
+Attend the introductory session to get an understanding of the concepts and capabilities in AI governance.
 
-## 🎬 2. Run the demos
-You're welcome to include [live demos](https://ibm.box.com/s/0hbl3a71f8b1mmxw1ipl51ugyoa4110q) of the product in your bootcamp.
+## 🎬 2.Demos 
+Join the introductory session to experience interactive AI governance demos
 
+## 🌍 3. Access your environment
 
-## 🌍 3. Set up your environment
-
-Set up your environment with [these instructions](environment-setup).
+Access your environment as per your instructor's guidelines
 
 ## 🧪 4. Run the labs 
 
 > [!IMPORTANT]
-> Make sure you have completed **Step 3** before running the labs.
 
-Once you have set up your environment, run the [client-facing hands-on use case labs](labs).
+Once you have set up your environment, you can start running the [client-facing hands-on use case labs](labs).
 
-## 🎨 5. Study the murals
+## 🎨 5. Join the use case case discovery workshop session
 
-[Mural templates](https://ibm.box.com/s/76ip0j3pqtr7bg23nq0uqcp283kxo7a4) have been built specifically for AI Governance. They might be used in two scenarios:
-
-
-⚙️ Pitch the bootcamp to your client using the external facing [one pager](https://ibm.box.com/s/5qlswdg1ydevgrbya1q93wexcail4g32).
+[Mural templates](https://ibm.box.com/s/76ip0j3pqtr7bg23nq0uqcp283kxo7a4) have been built specifically for AI Governance. 
 
 <!--⚙️ Learn more about the bootcamp in the [Bootcamp Starter Kit](https://ibm.box.com/s/0r9tgrebqk22ab3w06meqc2mnrmkyrsg).
-->
 
-## ‼️ Important Pre-requisites
-
-##TODO:
-⚙️ Review the latest [bootcamp planning and environment provisioning recommendations](https://ibm.box.com/s/s38n58bu1wi6o28bs8b3gi15m83q7fai) 
-
-⚙️ Make sure to register your bootcamp so that we have adequate SME, SRE, Product, and TechZone support:
-
-- [Create an ISC Project](https://ibm.seismic.com/Link/Content/DCG3CHFBgFJM68Q2HG9cqgD7ThH8) for your Agentic AI Bootcamp and tag it as a “Hackathon”.
-
-
-
-## 🤝 Need help or want to contribute?
-Ask on [**#ce-agentic-ai-client-bootcamp-practitioners**](https://join.slack.com/share/enQtODYwNTQxMDQ1NDgzNy03NDdlOWMxNmU3YTY3ZTdmYmQ2MmE1YmQwYmUxZjNlYjExZjVmMzEwYTJjYzkxNDc2YWVlOTBiZWI1ZDgwYmU2).
-
-📝 [Open an **Issue**](https://github.ibm.com/skol/agentic-ai-client-bootcamp-instructors/issues) in this repository if something's not working. ->
-as
 
 
 
