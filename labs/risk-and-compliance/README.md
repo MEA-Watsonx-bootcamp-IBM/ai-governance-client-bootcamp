@@ -83,7 +83,7 @@ A simple, structured process for managing AI models from idea to remediation.
 
 ## ⚙️ Lab Guides directory
 
-Here are all the links for all the guides for each of the 6 steps of the AI Governance Journey:
+Here are all the links for all the guides for each of the 6 steps of the AI Governance Journey. For the bootcamp the students are instructed to perform labs 1-4. The rest of the labs are **OPTIONAL** for further reference:
 
 | Step | Main Role | Main Guides <br> (on the MRG Console) | Additional Guides (on the Model Management Studio) |
 |------|------|-------|---------------------|
